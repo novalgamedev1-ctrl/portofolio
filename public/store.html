@@ -689,7 +689,7 @@ let products = []; // ini global biar bisa dipakai render
 
 async function loadProducts() {
   try {
-    const res = await fetch("http://kazuto.my.id/product");
+    const res = await fetch("https://kazuto.my.id/product");
     const data = await res.json();
 
     products = data; // simpan ke variable global
