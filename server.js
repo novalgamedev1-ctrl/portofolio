@@ -74,7 +74,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // tambah ini
 // Jalankan server
 // Jalankan server
 
-app.get('/product', (req, res) => {
+app.get('/api/product', (req, res) => {
     res.json(products);
 })
 app.get('/', (req, res) => {
