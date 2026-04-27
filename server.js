@@ -33,7 +33,6 @@ app.use(express.static(path.join(__dirname, 'public'))); // tambah ini
 // Impor Xendit
 // Buat instance Xendit
 //const x = new Xendit({
-//  apiKey: 'xnd_development_8OgpsQ5Iyx9kaap2ewoQCtXjOIJIQVP1YKjK9DMMXn6dCm05zcV8E7DYIySss91'
 //});
 
 //const { Invoice } = x;
